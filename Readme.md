@@ -16,13 +16,13 @@ Built to demonstrate low-level embedded systems knowledge: interrupt-driven I/O,
 
 ### Pin Mapping
 
-Motor A IN1 -> AVR Pin: PB1 -> Arduino Pin: D9
-Motor A IN2 -> AVR Pin: PD6 -> Arduino Pin: D6
-Motor B IN3 -> AVR Pin: PD5 -> Arduino Pin: D5
-Motor B IN4 -> AVR Pin: PD3 -> Arduino Pin: D3
-Ultrasonic TRIG -> AVR Pin: PD2 -> Arduino Pin: D2
-Ultrasonic ECHO -> AVR Pin: PB5 -> Arduino Pin: D13
-IR Receiver -> AVR Pin: PB3 -> Arduino Pin: D11
+- Motor A IN1 -> AVR Pin: PB1 -> Arduino Pin: D9
+- Motor A IN2 -> AVR Pin: PD6 -> Arduino Pin: D6
+- Motor B IN3 -> AVR Pin: PD5 -> Arduino Pin: D5
+- Motor B IN4 -> AVR Pin: PD3 -> Arduino Pin: D3
+- Ultrasonic TRIG -> AVR Pin: PD2 -> Arduino Pin: D2
+- Ultrasonic ECHO -> AVR Pin: PB5 -> Arduino Pin: D13
+- IR Receiver -> AVR Pin: PB3 -> Arduino Pin: D11
 
 ## How It Works
 
@@ -49,12 +49,12 @@ When self-driving is active, the car continuously polls the sonar sensor. If an 
 
 ## IR Button Mapping
 
-0x09 -> Forward
-0x15 -> Backward
-0x40 -> Left
-0x43 -> Right
-0x45 -> Stop
-0x46 -> Toggle modes
+- 0x09 -> Forward
+- 0x15 -> Backward
+- 0x40 -> Left
+- 0x43 -> Right
+- 0x45 -> Stop
+- 0x46 -> Toggle modes
 
 
 ## What This Demonstrates
