@@ -7,11 +7,11 @@ Built to demonstrate low-level embedded systems knowledge: interrupt-driven I/O,
 
 ## Features
 
-- *IR Remote Control* — Decodes NEC infrared protocol entirely in software using a pin-change interrupt and a hardware timer. No IR library used.
-- *Dual Motor Control* — Drives two DC motors (left and right), supporting forward, backward, left, and right movement.
-- *Ultrasonic Obstacle Detection* — Uses an HC-SR04 sensor to measure distance and trigger automatic avoidance behaviour.
-- *Self-Driving Mode* — Toggle between manual IR control and autonomous navigation with a single button press on the remote.
-- *UART Debug Output* — Serial logging over UART for real-time diagnostics, implemented without printf or any standard Arduino library.
+- *IR Remote Control* - Decodes NEC infrared protocol entirely in software using a pin-change interrupt and a hardware timer. No IR library used.
+- *Dual Motor Control* - Drives two DC motors (left and right), supporting forward, backward, left, and right movement.
+- *Ultrasonic Obstacle Detection* - Uses an HC-SR04 sensor to measure distance and trigger automatic avoidance behaviour.
+- *Self-Driving Mode* - Toggle between manual IR control and autonomous navigation with a single button press on the remote.
+- *UART Debug Output* - Serial logging over UART for real-time diagnostics, implemented without printf or any standard Arduino library.
 
 
 ### Pin Mapping
