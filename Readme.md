@@ -1,6 +1,6 @@
 # Baremetal Remote Controlled Car — ATmega328P
 
-A remote controlled car ported from Arduino to bare-metal C, targeting the *ATmega328P* microcontroller. This project was ported from an Arduino sketch to direct register-level programming.
+A remote controlled car ported from Arduino to bare-metal C, targeting the *ATmega328P* microcontroller.
 
 Built to demonstrate low-level embedded systems knowledge: interrupt-driven I/O, timer management, custom protocol decoding, and hardware peripheral control from scratch.
 
@@ -46,7 +46,6 @@ Motors are driven by directly writing to GPIO registers.
 
 When self-driving is active, the car continuously polls the sonar sensor. If an obstacle is detected within 10 cm, it stops and turns right before continuing forward. Toggling between IR remote control and self-driving mode is mapped to a dedicated IR button (code 0x46).
 
------
 
 ## IR Button Mapping
 
